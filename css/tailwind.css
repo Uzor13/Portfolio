@@ -1,0 +1,14 @@
+
+#toggle:checked ~ label div.toggle-dot {
+    @apply translate-x-3;
+    @apply bg-green-400;
+}
+#toggle:checked ~ label div.toggle-bg {
+    @apply bg-gray-100;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

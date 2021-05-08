@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="public/build/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Uzor's Home</title>
+</head>
+<body class="bg-gray-200 dark:bg-gray-800">
+<div class="wrapper">
+    <div class="dark-mode-settings flex justify-end items-center space-x-2 mr-8 mt-4">
+        <span class="text-sm text-gray-800 dark:text-gray-400">Light</span>
+        <div>
+            <input type="checkbox" id="toggle" class="hidden">
+            <label for="toggle">
+                <div class="w-9 h-5 flex items-center rounded-full bg-gray-300 p-1 toggle-bg">
+                    <div class="w-4 h-4 bg-white rounded-full shadow-md toggle-dot transform duration-200 ease-in-out"></div>
+                </div>
+            </label>
+
+        </div>
+        <span class="text-sm text-gray-400 dark:text-gray-200">Dark</span>
+    </div>
+    <div class="first-grid gap-4 first-grid mx-auto px-9 pt-9">
+        <div class="profile">
+            <div class="card flex flex-col p-6 bg-white shadow-md rounded-md hover:shadow-lg
+            transition-all duration-200 dark:bg-gray-600">
+                <div class="profile-img flex justify-center">
+                    <img class="h-24 w-24 rounded-md filter dark:contrast-200"
+                         src="img/46c6b717f59426fee75353fc4e55c1e5.jpg" alt="Profile">
+                </div>
+                <div class="profile-text pt-3 dark:text-gray-50">
+                    <h1 class="text-2xl dark:text-gray-200">Uzochukwu Precious</h1>
+                    <p class="text-base dark:text-gray-300">Front-end Developer</p>
+                    <ul class="list-style-none pt-3 leading-loose text-lg">
+                        <li>
+                            <i class="fas fa-envelope text-blue-500 dark:text-blue-400"></i>
+                            <a href="mailto:p.uzor99@gmail.com"
+                               class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+                                p.uzor99@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin text-blue-700 dark:text-blue-500"></i>
+                            <a href="https://linkedin.com/in/uzochukwuprecious"
+                               class="text-gray-700 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400">
+                                Uzochukwu
+                                Precious</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-github text-black dark:text-gray-800"></i>
+                            <a href="https://github.com/uzor13"
+                               class="text-gray-700 hover:text-blue-600 dark:hover:text-blue-400 dark:text-gray-300">
+                                Uzor13</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-dribbble text-pink-600 dark:text-pink-400"></i>
+                            <a href="https://dribbble.com/uzor13"
+                               class="text-gray-700 hover:text-blue-600 dark:hover:text-blue-400 dark:text-gray-300">
+                                Uzochukwu
+                                Precious</a>
+                        </li>
+                    </ul>
+                    <p class="pt-3 text-gray-600 text-lg dark:text-gray-300">Self-motivated developer, who is willing to learn
+                        and create
+                        outstanding UI applications.</p>
+                </div>
+            </div>
+        </div>
+        <div class="first-grid--inner">
+            <div class="">
+                <div class="card skills bg-white shadow-md hover:shadow-lg transition duration-200 p-4 rounded-md dark:bg-gray-600">
+                    <h1 class="text-2xl text-gray-700 dark:text-gray-200">About Me</h1>
+                    <p class="text-gray-500 dark:text-gray-300 text-lg">Hi, My name is Uzochukwu Precious and i’m a Web
+                        Developer
+                        with skills in web
+                        tech such as HTML, CSS,
+                        JavaScript, Django, Bootstrap, Semantics UI, Wordpress and SEO. I also work with python
+                        programming
+                        language. I make use of various web design software to develop customer-focused
+                        websites and designs.</p>
+                    <button class="float-right bg-green-500 dark:bg-green-500 hover:bg-green-600 active:bg-green-800
+                 dark:hover:bg-green-600 dark:text-gray-400 focus:ring-2
+                transition duration-200 p-2 rounded-md mt-2">
+                        <a href="file/Uzochukwu%20Precious.pdf" class="text-white" download>Download Resume</a>
+                    </button>
+                </div>
+            </div>
+            <div class="soft-skills">
+                <div class="card bg-white shadow-md hover:shadow-xl transition duration-200 p-4 pb-4 rounded-md
+            dark:bg-gray-600">
+                    <h2 class="text-gray-600 dark:text-gray-200 text-xl">Skills</h2>
+                    <div class="flex justify-center">
+                    <span class="text-5xl transition-colors duration-100 ease-out">
+                         <i class="fab fa-html5 text-yellow-600 dark:text-yellow-400 hover:text-yellow-500"></i>
+                         <i class="fab fa-css3-alt text-blue-600 dark:text-blue-500 hover:text-blue-500 dark:hover:text-blue-500"></i>
+                         <i class="fab fa-js-square text-yellow-300 hover:text-yellow-400"></i>
+                         <i class="fab fa-react text-blue-500 dark:text-blue-400 hover:text-blue-400"></i>
+                         <i class="fab fa-python text-blue-700 hover:text-blue-600 dark:text-yellow-300"></i>
+                         <i class="fab fa-wordpress text-gray-700 dark:text-gray-400 hover:text-gray-50"></i>
+                         <i class="fab fa-figma text-indigo-500 dark:text-pink-400 hover:text-pink-500"></i>
+                    </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="projects-grid px-9">
+        <div class="experience">
+            <div class="card flex flex-col w-full p-5 bg-white shadow-md rounded-md hover:shadow-lg
+            transition-all duration-200 dark:bg-gray-600">
+                <div>
+                    <h1 class="text-2xl dark:text-gray-200 pb-2">Experiences</h1>
+                </div>
+                <div class="divide-y-2 divide-gray-500 dark:divide-gray-400">
+                    <div class="pb-4">
+                        <div class=""></div>
+                        <div class="leading-loose">
+                            <p class="text-base dark:text-gray-300">October 2020 -February 2021</p>
+                            <h2 class="normal-case text-base text-gray-500 dark:text-gray-200">UI Web Developer</h2>
+                            <h2 class="text-base text-gray-600 dark:text-gray-100 pb-2">Your Gift Studio</h2>
+                            <ul class="list-style-none pl-4 leading-relaxed text-base dark:text-gray-300">
+                                <li class="dark:text-gray-300">
+                                    - Redesigned the entire UI of the E-commerce store
+                                </li>
+                                <li class="dark:text-gray-300"> - Created UI of the website.</li>
+                                <li class="dark:text-gray-300"> - Brought down the load time from 12 seconds to
+                                    5seconds
+                                </li>
+                                <li class="dark:text-gray-300"> - Optimized the checkout journey.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pt-5">
+                        <div class=""></div>
+                        <div>
+                            <p class="text-base dark:text-gray-300">March 2020 - August 2020</p>
+                            <h2 class="normal-case text-base text-gray-500 dark:text-gray-200">Software Developer
+                                Intern</h2>
+                            <h2 class="text-base text-gray-600 dark:text-gray-100 pb-2">New Horizons</h2>
+                            <ul class="list-style-none pl-4 leading-relaxed text-base">
+                                <li class="dark:text-gray-300">
+                                    - Designed and developed web applications for companies using Django.
+                                </li>
+                                <li class="dark:text-gray-300"> - I used MySQL and PHP to develop student portals.</li>
+                                <li class="dark:text-gray-300"> - Learnt and understood the concept of design, UI/UX
+                                    Design and worked with the
+                                    skills acquired.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-grid">
+            <div>
+                <div class="card flex justify-between items-center h-full p-5 bg-white shadow-md rounded-md hover:shadow-lg
+            transition-all duration-200 dark:bg-gray-600">
+                    <h1 class="text-lg dark:text-gray-300">Projects (15)</h1>
+                    <a href="projects.html" class="text-green-400 hover:text-green-500">View More</a>
+                </div>
+            </div>
+
+            <div class="card flex flex-row h-full p-4 bg-white shadow-md rounded-md hover:shadow-lg
+            transition-all duration-200 dark:bg-gray-600">
+                <div class="inner-grid">
+                    <div class="rounded-md flex items-center w-52 h-52 ">
+                        <img src="img/portal.svg" class="rounded-md" alt="">
+                    </div>
+                    <div class="">
+                        <div class="inline space-x-3 text-base pb-3">
+                            <i class="fab fa-html5 text-yellow-600 hover:text-yellow-500" title="HTML"></i>
+                            <i class="fab fa-css3-alt text-blue-600 dark:text-blue-400 hover:text-blue-500"
+                               title="CSS"></i>
+                            <i class="fab fa-js-square text-yellow-300 hover:text-yellow-400" title="JS"></i>
+                            <i title="Responsive" class="fas fa-expand"></i>
+                        </div>
+                        <h1 class="text-xl dark:text-gray-200 py-3">Student Portal</h1>
+                        <p class="text-base dark:text-gray-300">I built this student portal as an upgrade to the in
+                            place portal being used in school as a
+                            project to test my skill set in front-end development</p>
+                        <div class="flex pt-3">
+                            <button class="w-1/2 mr-2 p-1 flex items-center hover:bg-green-600 justify-center rounded-md bg-green-500 text-white">
+                                Demo
+                            </button>
+                            <button class="w-1/2 p-1 hover:bg-green-500 hover:text-gray-100 dark:text-gray-200 flex items-center justify-center rounded-md border-2 border-green-500">
+                                Code
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card flex flex-col h-full p-5 bg-white shadow-md rounded-md hover:shadow-lg
+            transition-all duration-200 dark:bg-gray-600">
+                    <div class="inner-grid">
+                        <div class="rounded-md flex items-center w-52 h-52 ">
+                            <img src="img/omdb.svg" class="rounded-md" alt="">
+                        </div>
+                        <div class="">
+                            <div class="inline space-x-3 pb-3 text-base">
+                                <i class="fab fa-html5 text-yellow-600 hover:text-yellow-500" title="HTML"></i>
+                                <i class="fab fa-css3-alt text-blue-600 dark:text-blue-400 hover:text-blue-500"
+                                   title="CSS"></i>
+                                <i class="fab fa-react text-blue-300 hover:text-blue-400" title="React"></i>
+                                <i title="Responsive" class="fas fa-expand"></i>
+                            </div>
+                            <h1 class="text-xl dark:text-gray-200 py-3">The Shoppies</h1>
+                            <p class="text-base dark:text-gray-300">This is a task to build a movies nominations app
+                                using any Javascript framework and fetching the data from the OMDB API. The framework
+                                used here is React</p>
+                            <div class="flex pt-3">
+                                <button class="w-1/2 mr-2 p-1 flex items-center hover:bg-green-600 hover:text-gray-100 justify-center rounded-md bg-green-500 text-white">
+                                    Demo
+                                </button>
+                                <button class="w-1/2 p-1 hover:bg-green-500 hover:text-gray-100 dark:text-gray-200 flex items-center justify-center rounded-md border-2 border-green-500">
+                                    Code
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card flex flex-col h-full p-5 bg-white shadow-md rounded-md hover:shadow-lg
+            transition-all duration-200 dark:bg-gray-600">
+                    <div class="inner-grid">
+                        <div class="rounded-md flex items-center w-52 h-52 ">
+                            <img src="img/js.svg" class="rounded-md" alt="">
+                        </div>
+                        <div class="">
+                            <div class="inline space-x-3 text-base pb-3">
+                                <i class="fab fa-html5 text-yellow-600 hover:text-yellow-500" title="HTML"></i>
+                                <i class="fab fa-css3-alt text-blue-600 dark:text-blue-400 hover:text-blue-500"
+                                   title="CSS"></i>
+                                <i class="fab fa-js-square text-yellow-300 hover:text-yellow-400" title="JS"></i>
+                                <i title="Responsive" class="fas fa-expand"></i>
+                            </div>
+                            <h1 class="text-xl dark:text-gray-200 py-3">Github Finder</h1>
+                            <p class="text-base dark:text-gray-300">Using vanilla JS to build an app that finds users on
+                                github and also view their repos</p>
+                            <div class="flex pt-3">
+                                <button class="w-1/2 mr-2 p-1 flex items-center hover:bg-green-600 justify-center rounded-md bg-green-500 text-white">
+                                    Demo
+                                </button>
+                                <button class="w-1/2 p-1 hover:bg-green-500 hover:text-gray-100 dark:text-gray-200 flex items-center justify-center rounded-md border-2 border-green-500">
+                                    Code
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last-grid p-9 mt-12">
+        <div class="experience">
+            <div class="card flex flex-col w-full p-5 bg-white shadow-md rounded-md hover:shadow-lg
+            transition-all duration-200 dark:bg-gray-600">
+                <div>
+                    <h1 class="text-2xl pb-2 dark:text-gray-200">Hobbies</h1>
+                </div>
+                <div class="hobbies_grid pb-4">
+                    <div class="pt-4">
+                        <img src="img/fabio-silva-nmTm7knUnqs-unsplash.jpg" class="h-32 w-full rounded-md" alt="Gaming">
+                        <p class="dark:text-gray-200 pt-2">Gaming</p>
+                    </div>
+                </div>
+                <div class="hobbies_grid pb-4">
+                    <div class="pt-4">
+                        <img src="img\bence-balla-schottner-deGn9vSwXIM-unsplash.jpg" class="h-32 w-full rounded-md"
+                             alt="">
+                        <p class="dark:text-gray-200 pt-2">Football</p>
+                    </div>
+                </div>
+                <div class="hobbies_grid pb-4">
+                    <div class="pt-4">
+                        <img src="img/glenn-carstens-peters-ZWD3Dx6aUJg-unsplash.jpg" class="h-32 w-full rounded-md"
+                             alt="">
+                        <p class="dark:text-gray-200 pt-2">Travelling</p>
+                    </div>
+                </div>
+                <div class="hobbies_grid pb-4">
+                    <div class="pt-4">
+                        <img src="img/lisa-keffer-3B8nIiT-Pmc-unsplash.jpg" class="h-32 w-full rounded-md" alt="">
+                        <p class="dark:text-gray-200 pt-2">Table Tennis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-grid">
+            <div>
+                <div class="card flex justify-between items-center h-full p-5 bg-white shadow-md rounded-md hover:shadow-lg
+            transition-all duration-200 dark:bg-gray-600">
+                    <h1 class="text-lg dark:text-gray-300">Blog Post (1)</h1>
+                    <a href="" class="text-green-400 hover:text-green-500">View More</a>
+                </div>
+            </div>
+
+            <div class="card flex flex-row h-full p-5 bg-white shadow-md rounded-md hover:shadow-lg
+            transition-all duration-200 dark:bg-gray-600">
+                <div class="inner-grid">
+                    <div class="rounded-md flex items-center w-52">
+                        <img src="img/bermix-studio-F7DAQIDSk98-unsplash.jpg" class="rounded-md h-60 w-full" alt="">
+                    </div>
+                    <div class="">
+                        <div class="inline space-x-3 pb-3">
+                            <i class="fab fa-medium text-gray-800 hover:text-gray-600" title="Medium"></i>
+                        </div>
+                        <a href="https://p-uzor99.medium.com/overwhelming-imposter-syndrome-3c726b5c318">
+                            <h1 class="text-2xl dark:text-gray-100 hover:text-green-400 py-3">Overwhelming Imposter
+                                Syndrome</h1>
+                        </a>
+
+                        <p class="text-base dark:text-gray-200 overflow-ellipsis">Starting in programing comes with a
+                            lot of desire, happiness and awe when certain things happen which feels magical or just
+                            downright strange... <a
+                                    href="https://p-uzor99.medium.com/overwhelming-imposter-syndrome-3c726b5c318"
+                                    class="text-green-500"> Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

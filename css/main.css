@@ -94,16 +94,34 @@ a {
     }
 }
 
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 812px)
-and (-webkit-min-device-pixel-ratio: 3) {
-    .projects-grid {
+@media screen and (max-width: 949px) {
+    .first-grid--inner {
+        grid-template-rows: 1fr;
+        height: auto;
+    }
+    .projects-grid, .last-grid {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .first-grid {
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
     }
-
-    .first-grid {
-        grid-template-rows: repeat(3, 1fr);
+    .profile, .about {
+        height: auto;
+    }
+    .soft-skills {
+        text-align: center;
+    }
+    .soft-skills h2 {
+        padding-bottom: 1rem;
+    }
+    .experience {
+        height: auto;
+    }
+    .inner-grid {
         grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
     }
 }
